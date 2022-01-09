@@ -9,13 +9,13 @@
                     "content": "WELCOME TO MY WORLD"
                 },
                 {
-                    "content": "Hi, I’m <span>Jone Lee</span>"
+                    "content": "Hi, I’m <span>Mirza Aditya Deliantama</span>"
                 }
             ],
             "animated_texts": [
-                "Developer.",
-                "Professional Coder.",
-                "Designer."
+                "Web Developer.",
+                "Physicist.",
+                "Data Scientist."
             ],
             "texts": [
                 {
@@ -27,7 +27,7 @@
                     "id": 1,
                     "title": "developer",
                     "image": {
-                        "src": "../images/icons/icons-01.png",
+                        "src": "../images/icons/nodejsicons.png",
                         "alt": "Skill Icon"
                     }
                 },
@@ -35,7 +35,7 @@
                     "id": 2,
                     "title": "developer",
                     "image": {
-                        "src": "../images/icons/icons-02.png",
+                        "src": "../images/icons/reacticons.png",
                         "alt": "Skill Icon"
                     }
                 },
@@ -43,14 +43,14 @@
                     "id": 3,
                     "title": "developer",
                     "image": {
-                        "src": "../images/icons/icons-03.png",
+                        "src": "../images/icons/goicons.png",
                         "alt": "Skill Icon"
                     }
                 }
             ],
             "images": [
                 {
-                    "src": "../images/slider/banner-01.png",
+                    "src": "../images/slider/myphoto.png",
                     "alt": "Personal Portfolio Images"
                 }
             ]
@@ -117,8 +117,8 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "The services provide for design",
-                    "category": "Development",
+                    "title": "Karya Ilmiah Dosen Fisika Universitas Padjadjaran",
+                    "category": "Web Application",
                     "texts": [
                         {
                             "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
@@ -129,16 +129,15 @@
                     ],
                     "images": [
                         {
-                            "src": "../images/portfolio/portfolio-01.jpg"
+                            "src": "../images/portfolio/kifisika.png"
                         }
                     ],
-                    "path": "#!",
-                    "likeCount": 600
+                    "path": "#!"
                 },
                 {
                     "id": 2,
-                    "title": "Mobile app landing design & app maintain",
-                    "category": "Application",
+                    "title": "Geospatial Map for ATR/BPN",
+                    "category": "Web Application",
                     "texts": [
                         {
                             "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
@@ -149,11 +148,10 @@
                     ],
                     "images": [
                         {
-                            "src": "../images/portfolio/portfolio-02.jpg"
+                            "src": "../images/portfolio/JICAmap.png"
                         }
                     ],
-                    "path": "#!",
-                    "likeCount": 750
+                    "path": "#!"
                 },
                 {
                     "id": 3,
@@ -253,30 +251,33 @@
                 {
                     "id": "education-section-left",
                     "section_title": {
-                        "title": "Education Quality",
-                        "subtitle": "2007 - 2010"
+                        "title": "Education Record",
+                        "subtitle": "2005 - now"
                     },
                     "items": [
                         {
                             "id": 1,
-                            "title": "Personal Portfolio April Fools",
-                            "subtitle": "University of DVI (1997 - 2001)",
-                            "rating": "4.30/5",
+                            "title": "Natural Physics",
+                            "subtitle": "Padjadjaran University (2017 - 2021)",
                             "description": "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
                         },
                         {
                             "id": 2,
-                            "title": "Examples Of Personal Portfolio",
-                            "subtitle": "College of Studies (2000 - 2002)",
-                            "rating": "4.50/5",
+                            "title": "SMAN 20 Bandung",
+                            "subtitle": "Senior High School (2014 - 2017)",
                             "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
                         },
                         {
                             "id": 3,
-                            "title": "Tips For Personal Portfolio",
-                            "subtitle": "University of Studies (1997 - 2001)",
-                            "rating": "4.80/5",
+                            "title": "SMPN 14 Bandung",
+                            "subtitle": "Junior High School (2011 - 2014)",
                             "description": "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                        },
+                        {
+                            "id": 4,
+                            "title": "SDPN Sabang Bandung",
+                            "subtitle": "Elementary School (2005 - 2011)",
+                            "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary"
                         }
                     ]
                 },
@@ -289,23 +290,20 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "Diploma in Web Development",
-                            "subtitle": "BSE In CSE (2004 - 2008)",
-                            "rating": "4.70/5",
+                            "title": "PLABS.ID",
+                            "subtitle": "Software Engineer (2020 - now)",
                             "description": "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
                         },
                         {
                             "id": 2,
-                            "title": "The Personal Portfolio Mystery",
-                            "subtitle": "Job at Rainbow-Themes (2008 - 2016)",
-                            "rating": "4.95/5",
+                            "title": "Assistant Lecturer of Network Communication and Datalogger",
+                            "subtitle": "Physics Department, UNPAD (2021)",
                             "description": "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
                         },
                         {
                             "id": 3,
-                            "title": "Diploma in Computer Science",
-                            "subtitle": "Works at Plugin Development (2016 - 2020)",
-                            "rating": "5.00/5",
+                            "title": "Computation Laboratory Assistant",
+                            "subtitle": "Physics Department, UNPAD (2019 - 2021)",
                             "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
                         }
                     ]
@@ -1591,20 +1589,20 @@
             },
             "images": [
                 {
-                    "src": "../images/contact/contact1.png"
+                    "src": "../images/contact/footerimages.jpg"
                 }
             ],
             "headings": [
                 {
-                    "content": "Nevine Acotanza"
+                    "content": "Mirza Aditya Deliantama"
                 },
                 {
-                    "content": "Chief Operating Officer"
+                    "content": "Software Engineer"
                 }
             ],
             "texts": [
                 {
-                    "content": "I am available for freelance work. Connect with me via and call in to my account."
+                    "content": "Connect with me via and call in to my account."
                 }
             ]
         }

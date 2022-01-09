@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => {
     const content = normalizedData(data?.homePage?.content || []);
 
     return (
-        <Layout pageTitle="Home Default">
+        <Layout pageTitle="Mirza's Portfolio">
             <Header
                 data={{
                     ...data.header,
@@ -48,7 +48,6 @@ const IndexPage = ({ data }) => {
                 </ResumeArea>
                 <TestimonialArea data={content["testimonial-section"]} />
                 <ClientArea data={content["client-section"]} />
-                <PricingArea data={content["pricing-section"]} />
                 <BlogArea
                     data={{
                         ...content["blog-section"],

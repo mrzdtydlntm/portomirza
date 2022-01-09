@@ -8,11 +8,11 @@
     },
     "logo": [
         {
-            "src": "../images/logo/logo-dark.png"
+            "src": "../images/logo/mrzicon.png"
         },
         {
-            "src": "../images/logo/logo-dark.png"
+            "src": "../images/logo/mrzicon.png"
         }
     ],
-    "slogan": "Inbio is a personal portfolio template. You can customize all."
+    "slogan": "Code everything that you can imagine."
 }

@@ -1,38 +1,38 @@
 module.exports = {
     siteMetadata: {
         siteUrl: "https://www.yourdomain.tld",
-        title: "Inbio - Personal Portfolio React Template",
+        title: "Code Portfolio",
         description: "Awesome Gatsby template",
-        author: "Rainbow IT",
+        author: "Mirza Aditya Deliantama",
         siteLanguage: "en",
         image: "banner.jpg",
-        titleTemplate: "inbio",
-        twitterUsername: "@rainbowit",
+        titleTemplate: "mrzdtydlntm",
+        twitterUsername: "@mrzdtydlntm",
         getform_url:
             "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
         socials: [
             {
                 id: 1,
                 title: "facebook",
-                path: "https://facebook.com",
+                path: "https://facebook.com/mrzdtydlntm",
                 icon: "Facebook",
             },
             {
                 id: 2,
                 title: "instagram",
-                path: "https://instagram.com",
+                path: "https://instagram.com/mrzdtydlntm",
                 icon: "Instagram",
             },
             {
                 id: 3,
                 title: "linkedin",
-                path: "https://linkedin.com",
+                path: "https://www.linkedin.com/in/mrzdtydlntm/",
                 icon: "Linkedin",
             },
         ],
         contact: {
-            phone: "01234567890",
-            email: "admin@example.com",
+            phone: "6281394473670",
+            email: "mrzdtydlntm@gmail.com",
         },
     },
     plugins: [
@@ -85,8 +85,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: "Inbio",
-                short_name: "inbio",
+                name: "Mirza Aditya Deliantama",
+                short_name: "mrzdtydlntm",
                 theme_color: "#ff014f",
                 background_color: "#ffffff",
                 display: "standalone",

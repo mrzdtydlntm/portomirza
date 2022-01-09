@@ -9,7 +9,7 @@
                     "content": "WELCOME TO MY WORLD"
                 },
                 {
-                    "content": "Hi, I’m <span>Jone Lee</span>"
+                    "content": "Hi, I’m <span>Mirza Aditya Deliantama</span>"
                 }
             ],
             "animated_texts": [
@@ -50,7 +50,7 @@
             ],
             "images": [
                 {
-                    "src": "../images/slider/banner-01.png",
+                    "src": "../images/slider/myphoto.png",
                     "alt": "Personal Portfolio Images"
                 }
             ]

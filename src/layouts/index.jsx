@@ -25,8 +25,6 @@ const Layout = ({ children, color, className, pageTitle }) => {
             <Client />
             {children}
             <ScrollToTop />
-            <DemoButton onClick={demoHandler} />
-            <DemoArea isOpen={demoOpen} onClose={demoHandler} />
         </>
     );
 };

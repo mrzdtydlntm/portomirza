@@ -27,11 +27,8 @@ const DemoArea = ({ isOpen, onClose }) => {
                 </div>
                 <div className="rn-modal-inner">
                     <div className="demo-top text-center">
-                        <h4 className="title">InBio</h4>
-                        <p className="subtitle">
-                            Its a personal portfolio template. You can built any
-                            personal website easily.
-                        </p>
+                        <h4 className="title">Mirza's Portfolio</h4>
+                        <p className="subtitle">Surf and turf the web!</p>
                     </div>
                     <TabContainer defaultActiveKey="demodark">
                         <Nav as="ul" className="popuptab-area">
