@@ -44,16 +44,16 @@ const IndexPage = ({ data }) => {
                     <EducationArea data={content["education-section"]} />
                     <SkillArea data={content["skill-section"]} />
                     <ExperienceArea data={content["experience-section"]} />
-                    <InterviewArea data={content["interview-section"]} />
+                    {/* <InterviewArea data={content["interview-section"]} /> */}
                 </ResumeArea>
-                <TestimonialArea data={content["testimonial-section"]} />
-                <ClientArea data={content["client-section"]} />
-                <BlogArea
+                {/* <TestimonialArea data={content["testimonial-section"]} /> */}
+                {/* <ClientArea data={content["client-section"]} /> */}
+                {/* <BlogArea
                     data={{
                         ...content["blog-section"],
                         blogs: data?.allArticle?.nodes,
                     }}
-                />
+                /> */}
                 <ContactArea
                     data={{
                         ...content["contact-section"],

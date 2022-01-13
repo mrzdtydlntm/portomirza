@@ -1,6 +1,16 @@
 {
     "id": "header-data-1",
     "section": "header-1",
-    "logo": [],
+    "button": {
+        "id": 1,
+        "content": "Download My CV",
+        "path": "https://cvmirza.mrzdtydlntm.my.id",
+        "className": "no-shadow btn-theme"
+    },
+    "logo": [
+        {
+            "src": "../images/logo/mrzlogo.png"
+        }
+    ],
     "slogan": "Code everything that you can imagine."
 }

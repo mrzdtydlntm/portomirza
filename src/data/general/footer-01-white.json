@@ -2,5 +2,5 @@
     "id": "footer-data-1-white",
     "section": "footer-1-white",
     "copyright_text": "All rights reserved by Mirza Aditya Deliantama.",
-    "logo": [{}]
+    "logo": [{ "src": "../images/logo/mrzlogo.png" }]
 }

@@ -19,7 +19,7 @@
             ],
             "texts": [
                 {
-                    "content": "I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that."
+                    "content": "You can fool all of the people some of the time, and some of the people all of the time, but you can't fool all of the people all of the time. -Abraham Lincoln"
                 }
             ],
             "skills": [
@@ -46,6 +46,14 @@
                         "src": "../images/icons/goicons.png",
                         "alt": "Skill Icon"
                     }
+                },
+                {
+                    "id": 4,
+                    "title": "developer",
+                    "image": {
+                        "src": "../images/icons/python.png",
+                        "alt": "Skill Icon"
+                    }
                 }
             ],
             "images": [
@@ -65,44 +73,44 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Business Stratagy",
-                    "description": "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-                    "icon": "Menu",
+                    "title": "Frontend Developing",
+                    "description": "I have made some web view using React JS. Also using HTML, CSS and JavaScript is a must.",
+                    "icon": "Monitor",
                     "path": "#!"
                 },
                 {
                     "id": 2,
-                    "title": "App Development",
-                    "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-                    "icon": "BookOpen",
+                    "title": "Backend Developing",
+                    "description": "To catch, calculate and serve some data from user, i often use Express JS, Golang and Django framework.",
+                    "icon": "Database",
                     "path": "#!"
                 },
                 {
                     "id": 3,
-                    "title": "App Development",
-                    "description": "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-                    "icon": "Tv",
+                    "title": "DevOps",
+                    "description": "Wanna make your web accessible in HTTP/HTTPS? I can make it better using Docker and Nginx.",
+                    "icon": "GitPullRequest",
                     "path": "#!"
                 },
                 {
                     "id": 4,
-                    "title": "Mobile App",
-                    "description": "There are many variations of passages of Lorem Ipsum available, but the majority.",
-                    "icon": "Twitch",
+                    "title": "UI/UX Designing",
+                    "description": "Web Design is an important thing to make user feel comfort to visit your website, and I can make it using Figma.",
+                    "icon": "Figma",
                     "path": "#!"
                 },
                 {
                     "id": 5,
-                    "title": "CEO Marketing",
-                    "description": "always free from repetition, injected humour, or non-characteristic words etc.",
-                    "icon": "Wifi",
+                    "title": "Copywriting",
+                    "description": "Express what you think with a pen, and write it down to say it all!.",
+                    "icon": "PenTool",
                     "path": "#!"
                 },
                 {
                     "id": 6,
-                    "title": "Personal Portfolio April",
-                    "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-                    "icon": "Slack",
+                    "title": "Gaming",
+                    "description": "Game is an important thing today. Everytime and everyday you and i will play a game.",
+                    "icon": "Play",
                     "path": "#!"
                 }
             ]
@@ -118,13 +126,13 @@
                 {
                     "id": 1,
                     "title": "Karya Ilmiah Dosen Fisika Universitas Padjadjaran",
-                    "category": "Web Application",
+                    "category": "Backoffice System",
                     "texts": [
                         {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+                            "content": "This website is an backoffice system for lecturer in Physics Department, Padjadjaran University. It helps head of physics department to assess lecturers about the activeness of uploading journals to Scopus."
                         },
                         {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
+                            "content": "Tech Stack: Python Django (Backend) and HTML, CSS and JS (Frontend)"
                         }
                     ],
                     "images": [
@@ -132,18 +140,19 @@
                             "src": "../images/portfolio/kifisika.png"
                         }
                     ],
-                    "path": "#!"
+                    "path": "https://kifisika.finder.ac.id",
+                    "likeCount": 630
                 },
                 {
                     "id": 2,
                     "title": "Geospatial Map for ATR/BPN",
-                    "category": "Web Application",
+                    "category": "Web Map",
                     "texts": [
                         {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+                            "content": "This web application is useful to calculate some distance, area or measure of some landfill and 3D building asset. Took Bing Maps as a basemap, this web application acts like a map in general with some special features in processing its spatial data."
                         },
                         {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
+                            "content": "Tech Stack: React JS (Frontend) and Express JS (Backend)"
                         }
                     ],
                     "images": [
@@ -151,87 +160,8 @@
                             "src": "../images/portfolio/JICAmap.png"
                         }
                     ],
-                    "path": "#!"
-                },
-                {
-                    "id": 3,
-                    "title": "Logo design creativity & Application",
-                    "category": "Photoshop",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-03.jpg"
-                        }
-                    ],
                     "path": "#!",
                     "likeCount": 630
-                },
-                {
-                    "id": 4,
-                    "title": "Mobile app landing design & Services",
-                    "category": "Figma",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-04.jpg"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 360
-                },
-                {
-                    "id": 5,
-                    "title": "Design for tecnology & services",
-                    "category": "Web Design",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-05.jpg"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 280
-                },
-                {
-                    "id": 6,
-                    "title": "App for tecnology & services",
-                    "category": "Web Design",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-06.jpg"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 600
                 }
             ]
         },
@@ -240,71 +170,69 @@
             "section": "resume-section",
             "section_title": {
                 "title": "My Resume",
-                "subtitle": "7+ Years of Experience"
+                "subtitle": "23+ Years of Experience"
             }
         },
         {
             "id": "default-home-education",
             "section": "education-section",
-            "title": "Education",
+            "title": "Job & Edu",
             "inner": [
                 {
                     "id": "education-section-left",
                     "section_title": {
-                        "title": "Education Record",
-                        "subtitle": "2005 - now"
+                        "title": "Education History"
                     },
                     "items": [
                         {
                             "id": 1,
-                            "title": "Natural Physics",
-                            "subtitle": "Padjadjaran University (2017 - 2021)",
-                            "description": "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Padjadjaran University",
+                            "subtitle": "Undergraduate (2017 - 2021)",
+                            "description": "I was an undergraduate student who took a physics major. My thesis title is 'Eigenvalue Calculation Based on Hamiltonian Matrix using Block Matrix Technique: Case Study on Graphene' with a GPA of 3.36"
                         },
                         {
                             "id": 2,
                             "title": "SMAN 20 Bandung",
                             "subtitle": "Senior High School (2014 - 2017)",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "description": "I was majoring in mathematics and natural sciences in MIPA 1. I have got the 13th rank out of all students. My national exam scores is 33.00"
                         },
                         {
                             "id": 3,
                             "title": "SMPN 14 Bandung",
                             "subtitle": "Junior High School (2011 - 2014)",
-                            "description": "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "description": "I was school in SMPN 14 which has many outstanding students in it. My national exam scores is 38.80"
                         },
                         {
                             "id": 4,
                             "title": "SDPN Sabang Bandung",
                             "subtitle": "Elementary School (2005 - 2011)",
-                            "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary"
+                            "description": "SDPN Sabang Bandung is the favorite school in Bandung. My national exam scores is 27.00"
                         }
                     ]
                 },
                 {
                     "id": "education-section-right",
                     "section_title": {
-                        "title": "Job Experience",
-                        "subtitle": "2007 - 2010"
+                        "title": "Job Experience"
                     },
                     "items": [
                         {
                             "id": 1,
-                            "title": "PLABS.ID",
-                            "subtitle": "Software Engineer (2020 - now)",
-                            "description": "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Software Engineer",
+                            "subtitle": "PLABS.ID (2020 - now)",
+                            "description": "In PLABS.ID i often create web using several frameworks such as Golang, React JS, and Express JS. If there was a raw data, i will process the data using Python and plot it in Gnuplot"
                         },
                         {
                             "id": 2,
                             "title": "Assistant Lecturer of Network Communication and Datalogger",
-                            "subtitle": "Physics Department, UNPAD (2021)",
-                            "description": "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "subtitle": "Padjadjaran University (2021)",
+                            "description": "Network Communication and Datalogger is one of the favorite subjects in physics unpad. It learns several things such as data logging, how to display data correctly, processing data, etc."
                         },
                         {
                             "id": 3,
                             "title": "Computation Laboratory Assistant",
-                            "subtitle": "Physics Department, UNPAD (2019 - 2021)",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "subtitle": "Padjadjaran University (2019 - 2021)",
+                            "description": "Computational Physics learn how to calculate and display a physical phenomenon using software. Software that has been used to calculate physics phenomenon is C, Matlab and Python"
                         }
                     ]
                 }
@@ -318,68 +246,58 @@
                 {
                     "id": "default-home-skill-left",
                     "section_title": {
-                        "title": "Design Skill",
+                        "title": "Code Language",
                         "subtitle": "Features"
                     },
                     "items": [
                         {
                             "id": 1,
-                            "title": "PHOTOSHOT",
-                            "value": 85
+                            "title": "Javascript",
+                            "value": 87
                         },
                         {
                             "id": 2,
-                            "title": "FIGMA",
-                            "value": 95
-                        },
-                        {
-                            "id": 3,
-                            "title": "ADOBE XD",
-                            "value": 60
-                        },
-                        {
-                            "id": 4,
-                            "title": "ADOBE ILLUSTRATOR",
+                            "title": "Go",
                             "value": 70
                         },
                         {
-                            "id": 5,
-                            "title": "DESIGN",
-                            "value": 90
+                            "id": 3,
+                            "title": "Python",
+                            "value": 93
+                        },
+                        {
+                            "id": 4,
+                            "title": "C/C++",
+                            "value": 65
                         }
                     ]
                 },
                 {
                     "id": "default-home-skill-right",
                     "section_title": {
-                        "title": "Design Skill",
+                        "title": "Framework Familiarity",
                         "subtitle": "Features"
                     },
                     "items": [
                         {
                             "id": 1,
-                            "title": "HTML",
+                            "title": "React JS",
                             "value": 85
                         },
                         {
                             "id": 2,
-                            "title": "CSS",
-                            "value": 80
-                        },
-                        {
-                            "id": 3,
-                            "title": "JAVASCRIPT",
+                            "title": "Express JS",
                             "value": 90
                         },
                         {
-                            "id": 4,
-                            "title": "SOFTWARE",
-                            "value": 75
+                            "id": 3,
+                            "title": "Golang",
+                            "value": 70
                         },
                         {
-                            "id": 5,
-                            "title": "PLUGIN",
-                            "value": 70
+                            "id": 4,
+                            "title": "Django",
+                            "value": 85
                         }
                     ]
                 }
@@ -388,65 +306,57 @@
         {
             "id": "default-home-experience",
             "section": "experience-section",
-            "title": "experience",
+            "title": "Rewards",
             "inner": [
                 {
                     "id": "default-home-experience-left",
                     "section_title": {
-                        "title": "Education Quality",
-                        "subtitle": "2007 - 2010"
+                        "title": "Certificate #1"
                     },
                     "items": [
                         {
                             "id": 1,
-                            "title": "Personal Portfolio April Fools",
-                            "subtitle": "University of DVI (1997 - 2001)",
-                            "rating": "4.30/5",
-                            "description": "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Project Machine Learning with Python: Building Recommender System",
+                            "subtitle": "DQLab (Jan 2021)",
+                            "description": "In this project, i build a movie recommender system. It can choose what movie that recommend next movie for a user after watching some movie before. The scheme looks like netflix recommender system scheme."
                         },
                         {
                             "id": 2,
-                            "title": "Examples Of Personal Portfolio",
-                            "subtitle": "College of Studies (2000 - 2002)",
-                            "rating": "4.50/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Data Wrangling Python",
+                            "subtitle": "DQLab (Jan 2021)",
+                            "description": "In this project, i learn about how to wrangling some data using Python. There are several data that must be taken and processed."
                         },
                         {
                             "id": 3,
-                            "title": "Tips For Personal Portfolio",
-                            "subtitle": "University of Studies (1997 - 2001)",
-                            "rating": "4.80/5",
-                            "description": "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Python Data Science",
+                            "subtitle": "SanberCode (Jan 2021)",
+                            "description": "In this project, i learn about Data Science in general. Many things that i learned, such as streaming data, calculate data and make a forecast in bussiness intelligence."
                         }
                     ]
                 },
                 {
                     "id": "default-home-section-right",
                     "section_title": {
-                        "title": "Job Experience",
-                        "subtitle": "2007 - 2010"
+                        "title": "Certificate #2"
                     },
                     "items": [
                         {
                             "id": 1,
-                            "title": "Diploma in Web Development",
-                            "subtitle": "BSE In CSE (2004 - 2008)",
-                            "rating": "4.70/5",
-                            "description": "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Python for Data Professional Beginner - Part 1",
+                            "subtitle": "DQLab (Jan 2021)",
+                            "description": "In this project, i learn about Data Science in general. Many things that i learned, such as streaming data, calculate data and make a forecast in bussiness intelligence."
                         },
                         {
                             "id": 2,
-                            "title": "The Personal Portfolio Mystery",
-                            "subtitle": "Job at Rainbow-Themes (2008 - 2016)",
-                            "rating": "4.95/5",
-                            "description": "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Python for Data Professional Beginner - Part 2",
+                            "subtitle": "DQLab (Jan 2021)",
+                            "description": "In this project, i learn about Data Science in general. Many things that i learned, such as streaming data, calculate data and make a forecast in bussiness intelligence."
                         },
                         {
                             "id": 3,
-                            "title": "Diploma in Computer Science",
-                            "subtitle": "Works at Plugin Development (2016 - 2020)",
-                            "rating": "5.00/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Spark and Python for Big Data with PySpark",
+                            "subtitle": "Udemy (Dec 2020)",
+                            "description": "In this project i learn about big data using PySpark. In big data, not only sql that will store in database. Many data can be stored and processed."
                         }
                     ]
                 }

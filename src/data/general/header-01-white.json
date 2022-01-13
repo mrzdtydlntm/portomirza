@@ -1,17 +1,9 @@
 {
     "id": "header-data-1-white",
     "section": "header-1-white",
-    "button": {
-        "id": 1,
-        "content": "BUY NOW",
-        "path": "#!"
-    },
     "logo": [
         {
-            "src": "../images/logo/mrzicon.png"
-        },
-        {
-            "src": "../images/logo/mrzicon.png"
+            "src": "../images/logo/mrzlogo.png"
         }
     ],
     "slogan": "Code everything that you can imagine."
