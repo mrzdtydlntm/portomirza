@@ -24,4 +24,4 @@ COPY ./nginx/ /etc/nginx/conf.d/
 
 RUN rm -f /etc/nginx/conf.d/default.conf
 
-COPY ./cv/mirza.pdf /usr/share/nginx/html
+COPY ./cv/cvmirza.pdf /usr/share/nginx/html
