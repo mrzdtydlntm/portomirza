@@ -8,8 +8,8 @@ services:
         volumes:
             - ./certbot/conf:/etc/letsencrypt:rw
             - ./certbot/www:/var/www/certbot:rw
-            - ./nginx/:/etc/nginx/conf.d/
-            - ./cv/cvmirza.pdf:/usr/share/nginx/html/
+            - ./nginx:/etc/nginx/conf.d:rw
+            - ./cv:/usr/share/nginx/html:rw
     certbot:
         image: certbot/certbot:latest
         container_name: certbot
