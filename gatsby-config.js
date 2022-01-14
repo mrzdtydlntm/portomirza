@@ -6,7 +6,7 @@ module.exports = {
             "This is Mirza's portfolio. In this site you will know better about Mirza's achievement, history and record",
         author: "Mirza Aditya Deliantama",
         siteLanguage: "en",
-        image: "banner.jpg",
+        image: "banner.jpeg",
         titleTemplate: "mrzdtydlntm",
         twitterUsername: "@mrzdtydlntm",
         getform_url:

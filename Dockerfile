@@ -20,4 +20,4 @@ EXPOSE 80 443
 
 COPY --from=builder /app/portomirza/public /usr/share/nginx/html
 
-COPY default.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
