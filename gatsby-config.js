@@ -1,8 +1,9 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: "https://www.yourdomain.tld",
-        title: "Code Portfolio",
-        description: "Awesome Gatsby template",
+        siteUrl: "https://mrzdtydlntm.my.id",
+        title: "Mirza's Portfolio",
+        description:
+            "This is Mirza's portfolio. In this site you will know better about Mirza's achievement, history and record",
         author: "Mirza Aditya Deliantama",
         siteLanguage: "en",
         image: "banner.jpg",
