@@ -10,7 +10,7 @@ module.exports = {
         titleTemplate: "mrzdtydlntm",
         twitterUsername: "@mrzdtydlntm",
         getform_url:
-            "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
+            "https://getform.io/f/0d646e66-6ca3-419b-9d1a-6b998852001f",
         socials: [
             {
                 id: 1,
