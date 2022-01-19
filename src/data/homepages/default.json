@@ -120,12 +120,12 @@
             "section": "portfolio-section",
             "section_title": {
                 "title": "My Portfolio",
-                "subtitle": "Visit my portfolio and keep your feedback"
+                "subtitle": "Visit my portfolio"
             },
             "items": [
                 {
                     "id": 1,
-                    "title": "Karya Ilmiah Dosen Fisika Universitas Padjadjaran",
+                    "title": "Aplikasi Penilaian Dosen",
                     "category": "Backoffice System",
                     "texts": [
                         {
@@ -140,8 +140,7 @@
                             "src": "../images/portfolio/kifisika.png"
                         }
                     ],
-                    "path": "https://kifisika.finder.ac.id",
-                    "likeCount": 630
+                    "path": "https://kifisika.finder.ac.id"
                 },
                 {
                     "id": 2,
@@ -160,8 +159,26 @@
                             "src": "../images/portfolio/JICAmap.png"
                         }
                     ],
-                    "path": "#!",
-                    "likeCount": 630
+                    "path": "https://3dv.nsi.id"
+                },
+                {
+                    "id": 3,
+                    "title": "Mastermine",
+                    "category": "Sensor and Actuator Web Streaming",
+                    "texts": [
+                        {
+                            "content": "This web application is useful some data from microcontroller that given by sensors and actuator. User can analyze all the sensors data, and do some act to trigger the actuator using this website."
+                        },
+                        {
+                            "content": "Tech Stack: Nuxt JS (Frontend), Golang (Backend), Apache Kafka (Broker)"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "src": "../images/portfolio/mastermine.png"
+                        }
+                    ],
+                    "path": "#!"
                 }
             ]
         },
