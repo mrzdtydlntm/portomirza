@@ -1,6 +1,12 @@
 {
     "id": "header-data-1-white",
     "section": "header-1-white",
+    "button": {
+        "id": 1,
+        "content": "Download My CV",
+        "path": "https://mrzdtydlntm.my.id/cv",
+        "className": "no-shadow btn-theme"
+    },
     "logo": [
         {
             "src": "../images/logo/mrzlogo.png"

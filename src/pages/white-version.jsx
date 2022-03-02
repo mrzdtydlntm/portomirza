@@ -4,26 +4,26 @@ import { graphql } from "gatsby";
 import { normalizedData } from "@utils";
 import Layout from "@layout";
 import Header from "@layout/header/layout-01";
-import Footer from "@layout/footer/layout-02";
-import HeroArea from "@containers/hero/layout-12";
-import AboutArea from "@containers/about/layout-02";
+import Footer from "@layout/footer/layout-01";
+import HeroArea from "@containers/hero/layout-01";
 import ServicesArea from "@containers/service/layout-01";
-import ParallaxArea from "@containers/parallax";
-import PortfolioArea from "@containers/portfolio/layout-06";
-import ClientArea from "@containers/client/layout-03";
-import TestimonialArea from "@containers/testimonial/layout-03";
-import PricingArea from "@containers/pricing/layout-02";
+import PortfolioArea from "@containers/portfolio/layout-01";
+import ResumeArea from "@containers/resume/layout-01";
+import TestimonialArea from "@containers/testimonial/layout-01";
+import ClientArea from "@containers/client/layout-01";
+import PricingArea from "@containers/pricing/layout-01";
 import BlogArea from "@containers/blog/layout-01";
 import ContactArea from "@containers/contact/layout-01";
+import EducationArea from "@containers/education/layout-01";
+import SkillArea from "@containers/skill/layout-01";
+import ExperienceArea from "@containers/experience/layout-01";
+import InterviewArea from "@containers/interview/layout-01";
 
-const IndexFitnessInstructorPage = ({ data }) => {
+const IndexPage = ({ data }) => {
     const content = normalizedData(data?.homePage?.content || []);
 
     return (
-        <Layout
-            pageTitle="Home Instructor Yoga"
-            className="home-classic white-version"
-        >
+        <Layout pageTitle="Mirza's Portfolio" className="white-version">
             <Header
                 data={{
                     ...data.header,
@@ -32,20 +32,28 @@ const IndexFitnessInstructorPage = ({ data }) => {
                 }}
             />
             <main className="main-page-wrapper">
-                <HeroArea data={content["hero-section"]} />
-                <AboutArea data={content["about-section"]} />
-                <ServicesArea id="service" data={content["service-section"]} />
-                <ParallaxArea data={content["parallax-section"]} />
+                <HeroArea
+                    data={{
+                        ...content["hero-section"],
+                        socials: data.site.siteMetadata.socials,
+                    }}
+                />
+                <ServicesArea data={content["service-section"]} />
                 <PortfolioArea data={content["portfolio-section"]} />
-                <ClientArea data={content["client-section"]} />
-                <TestimonialArea data={content["testimonial-section"]} />
-                <PricingArea data={content["pricing-section"]} />
-                <BlogArea
+                <ResumeArea data={content["resume-section"]}>
+                    <EducationArea data={content["education-section"]} />
+                    <SkillArea data={content["skill-section"]} />
+                    <ExperienceArea data={content["experience-section"]} />
+                    {/* <InterviewArea data={content["interview-section"]} /> */}
+                </ResumeArea>
+                {/* <TestimonialArea data={content["testimonial-section"]} /> */}
+                {/* <ClientArea data={content["client-section"]} /> */}
+                {/* <BlogArea
                     data={{
                         ...content["blog-section"],
                         blogs: data?.allArticle?.nodes,
                     }}
-                />
+                /> */}
                 <ContactArea
                     data={{
                         ...content["contact-section"],
@@ -56,34 +64,28 @@ const IndexFitnessInstructorPage = ({ data }) => {
                     }}
                 />
             </main>
-            <Footer
-                className="section-separator"
-                data={{
-                    ...data.footer,
-                    socials: data.site.siteMetadata.socials,
-                }}
-            />
+            <Footer data={{ ...data.footer }} className="section-separator" />
         </Layout>
     );
 };
 
 export const query = graphql`
-    query FitnessInstructorWhitePageQuery {
+    query DefaultWhitePageQuery {
         site {
             ...Site
         }
-        header: general(section: { eq: "header-4-white" }) {
+        header: general(section: { eq: "header-1-white" }) {
             ...Header01
         }
-        navigation: general(section: { eq: "menu-5" }) {
+        navigation: general(section: { eq: "menu-1" }) {
             menu {
                 ...Menu01
             }
         }
-        footer: general(section: { eq: "footer-2-white" }) {
-            ...Footer02
+        footer: general(section: { eq: "footer-1-white" }) {
+            ...Footer01
         }
-        homePage(title: { eq: "instructor-fitness-home-white" }) {
+        homePage(title: { eq: "default-white-home" }) {
             content {
                 ...Content01
             }
@@ -96,7 +98,7 @@ export const query = graphql`
     }
 `;
 
-IndexFitnessInstructorPage.propTypes = {
+IndexPage.propTypes = {
     data: PropTypes.shape({
         site: PropTypes.shape({
             siteMetadata: PropTypes.shape({
@@ -120,4 +122,4 @@ IndexFitnessInstructorPage.propTypes = {
     }),
 };
 
-export default IndexFitnessInstructorPage;
+export default IndexPage;
