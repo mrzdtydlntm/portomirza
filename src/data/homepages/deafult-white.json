@@ -179,6 +179,25 @@
                         }
                     ],
                     "path": "#!"
+                },
+                {
+                    "id": 4,
+                    "title": "Teraa",
+                    "category": "Measurement WebApp",
+                    "texts": [
+                        {
+                            "content": "This web application is useful for user that want to get a measure for some instrument. As an example, if we have Instrument A, it will have some parameter such as pH, waste water, etc."
+                        },
+                        {
+                            "content": "Tech Stack: Nuxt JS (Frontend), Golang (Backend)"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "src": "../images/portfolio/teraa.png"
+                        }
+                    ],
+                    "path": "#!"
                 }
             ]
         },

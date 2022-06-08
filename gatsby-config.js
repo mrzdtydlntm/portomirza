@@ -1,3 +1,15 @@
+require("dotenv").config({
+    path: `.env`,
+});
+
+// const strapiConfig = {
+//     apiURL: process.env.STRAPI_API_URL,
+//     accessToken: process.env.STRAPI_TOKEN,
+//     collectionTypes: ["article", "company", "author"],
+//     singleTypes: [],
+//     name: `data`,
+// };
+
 module.exports = {
     siteMetadata: {
         siteUrl: "https://mrzdtydlntm.my.id",
@@ -61,6 +73,10 @@ module.exports = {
                 ignore: [`**/\.*`],
             },
         },
+        // {
+        //     resolve: `gatsby-source-strapi`,
+        //     options: strapiConfig,
+        // },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
