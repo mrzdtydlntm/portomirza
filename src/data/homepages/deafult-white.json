@@ -67,50 +67,29 @@
             "id": "default-home-services",
             "section": "service-section",
             "section_title": {
-                "title": "What I Do",
+                "title": "Who Am I",
                 "subtitle": "Features"
             },
             "items": [
                 {
                     "id": 1,
-                    "title": "Frontend Developing",
-                    "description": "I have made some web view using React JS. Also using HTML, CSS and JavaScript is a must.",
+                    "title": "Frontend Developer",
+                    "description": "I have made some web view using Nuxt JS and React JS. Also using HTML, CSS and JavaScript is a must.",
                     "icon": "Monitor",
                     "path": "#!"
                 },
                 {
                     "id": 2,
-                    "title": "Backend Developing",
-                    "description": "To catch, calculate and serve some data from user, i often use Express JS, Golang and Django framework.",
+                    "title": "Backend Developer",
+                    "description": "To catch, calculate and serve some data from user, i often use Golang, Express JS and Django framework and PostgreSQL to store the data.",
                     "icon": "Database",
                     "path": "#!"
                 },
                 {
                     "id": 3,
-                    "title": "DevOps",
-                    "description": "Wanna make your web accessible in HTTP/HTTPS? I can make it better using Docker and Nginx.",
+                    "title": "DevOps Engineer",
+                    "description": "Often use NGINX and Docker to make a website accessible to many people. Sometimes use Google Cloud to deploy a web service such as App Engine.",
                     "icon": "GitPullRequest",
-                    "path": "#!"
-                },
-                {
-                    "id": 4,
-                    "title": "UI/UX Designing",
-                    "description": "Web Design is an important thing to make user feel comfort to visit your website, and I can make it using Figma.",
-                    "icon": "Figma",
-                    "path": "#!"
-                },
-                {
-                    "id": 5,
-                    "title": "Copywriting",
-                    "description": "Express what you think with a pen, and write it down to say it all!.",
-                    "icon": "PenTool",
-                    "path": "#!"
-                },
-                {
-                    "id": 6,
-                    "title": "Gaming",
-                    "description": "Game is an important thing today. Everytime and everyday you and i will play a game.",
-                    "icon": "Play",
                     "path": "#!"
                 }
             ]
@@ -304,7 +283,7 @@
                         {
                             "id": 4,
                             "title": "C/C++",
-                            "value": 65
+                            "value": 50
                         }
                     ]
                 },
@@ -317,18 +296,18 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "React JS",
-                            "value": 85
+                            "title": "Next JS",
+                            "value": 70
                         },
                         {
                             "id": 2,
                             "title": "Express JS",
-                            "value": 90
+                            "value": 76
                         },
                         {
                             "id": 3,
-                            "title": "Golang",
-                            "value": 70
+                            "title": "Nuxt JS",
+                            "value": 85
                         },
                         {
                             "id": 4,
