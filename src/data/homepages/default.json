@@ -58,8 +58,8 @@
             ],
             "images": [
                 {
-                    "src": "../images/slider/myphoto.png",
-                    "alt": "Personal Portfolio Images"
+                    "src": "../images/slider/photo.png",
+                    "alt": "Mirza Aditya Deliantama"
                 }
             ]
         },
@@ -68,7 +68,7 @@
             "section": "service-section",
             "section_title": {
                 "title": "Who Am I",
-                "subtitle": "Features"
+                "subtitle": "Introduction"
             },
             "items": [
                 {
@@ -203,7 +203,7 @@
                             "id": 1,
                             "title": "Padjadjaran University",
                             "subtitle": "Undergraduate (2017 - 2021)",
-                            "description": "I was an undergraduate student who took a physics major. My thesis title is 'Eigenvalue Calculation Based on Hamiltonian Matrix using Block Matrix Technique: Case Study on Graphene' with a GPA of 3.36"
+                            "description": "I was graduated from Physics Major in Padjadjaran University. My thesis title is 'Eigenvalue Calculation Based on Hamiltonian Matrix using Block Matrix Technique: Case Study on Graphene' with a GPA of 3.36"
                         },
                         {
                             "id": 2,
@@ -215,7 +215,7 @@
                             "id": 3,
                             "title": "SMPN 14 Bandung",
                             "subtitle": "Junior High School (2011 - 2014)",
-                            "description": "I was school in SMPN 14 which has many outstanding students in it. My national exam scores is 38.80"
+                            "description": "I used to study in SMPN 14 which has many outstanding students in it. My national exam scores is 38.80"
                         },
                         {
                             "id": 4,
@@ -235,7 +235,7 @@
                             "id": 1,
                             "title": "Software Engineer",
                             "subtitle": "PLABS.ID (2020 - now)",
-                            "description": "In PLABS.ID i often create web using several frameworks such as Golang, React JS, and Express JS. If there was a raw data, i will process the data using Python and plot it in Gnuplot"
+                            "description": "In PLABS.ID i often create web using several languages and frameworks such as Golang, Nuxt JS, and sometime Express JS. If there was a raw data, i will process the data using Python and plot it in Gnuplot"
                         },
                         {
                             "id": 2,
@@ -256,29 +256,28 @@
         {
             "id": "default-home-skill",
             "section": "skill-section",
-            "title": "professional Skills",
+            "title": "Skills",
             "inner": [
                 {
                     "id": "default-home-skill-left",
                     "section_title": {
-                        "title": "Code Language",
-                        "subtitle": "Features"
+                        "title": "Code Language"
                     },
                     "items": [
                         {
                             "id": 1,
                             "title": "Javascript",
-                            "value": 87
+                            "value": 70
                         },
                         {
                             "id": 2,
                             "title": "Go",
-                            "value": 70
+                            "value": 87
                         },
                         {
                             "id": 3,
                             "title": "Python",
-                            "value": 93
+                            "value": 87
                         },
                         {
                             "id": 4,
@@ -290,8 +289,7 @@
                 {
                     "id": "default-home-skill-right",
                     "section_title": {
-                        "title": "Framework Familiarity",
-                        "subtitle": "Features"
+                        "title": "Framework Familiarity"
                     },
                     "items": [
                         {
@@ -1523,11 +1521,6 @@
                 },
                 {
                     "content": "Software Engineer"
-                }
-            ],
-            "texts": [
-                {
-                    "content": "Connect with me via and call in to my account."
                 }
             ]
         }
