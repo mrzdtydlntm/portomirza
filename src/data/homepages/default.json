@@ -35,7 +35,7 @@
                     "id": 2,
                     "title": "developer",
                     "image": {
-                        "src": "../images/icons/nuxtjs.png",
+                        "src": "../images/icons/nodejsicons.png",
                         "alt": "Skill Icon"
                     }
                 },
@@ -51,7 +51,7 @@
                     "id": 4,
                     "title": "developer",
                     "image": {
-                        "src": "../images/icons/python.png",
+                        "src": "../images/icons/nuxtjs.png",
                         "alt": "Skill Icon"
                     }
                 }
