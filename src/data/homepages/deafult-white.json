@@ -157,7 +157,7 @@
                             "src": "../images/portfolio/mastermine.png"
                         }
                     ],
-                    "path": "#!"
+                    "path": "https://mastermine.id"
                 },
                 {
                     "id": 4,
@@ -177,6 +177,63 @@
                         }
                     ],
                     "path": "#!"
+                },
+                {
+                    "id": 5,
+                    "title": "POC MQTT UBS",
+                    "category": "Monitoring WebApp",
+                    "texts": [
+                        {
+                            "content": "This web is useful to monitoring all the devices using MQTT Paho (broker)."
+                        },
+                        {
+                            "content": "Tech Stack: Nuxt JS (Frontend), Golang (Backend)"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "src": "../images/portfolio/POCUBS.png"
+                        }
+                    ],
+                    "path": "#!"
+                },
+                {
+                    "id": 6,
+                    "title": "Faxtor",
+                    "category": "Company Profile WebApp",
+                    "texts": [
+                        {
+                            "content": "Faxtor Company Profile that provide all the information about Faxtor Company such as psychological instrument that used by Faxtor, all the member of Faxtor etc."
+                        },
+                        {
+                            "content": "Tech Stack: Next JS (Frontend), Golang (Backend)"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "src": "../images/portfolio/faxtor.png"
+                        }
+                    ],
+                    "path": "https://faxtor.co.id"
+                },
+                {
+                    "id": 7,
+                    "title": "Crystal of The Sea",
+                    "category": "E-Commerce",
+                    "texts": [
+                        {
+                            "content": "Crystal of The Sea is a company that selling a healthy food such as brown anchovy etc. This e-commerce provide a transaction app and company profile."
+                        },
+                        {
+                            "content": "Tech Stack: Next JS (Frontend), Express JS (Backend)"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "src": "../images/portfolio/crystalsea.png"
+                        }
+                    ],
+                    "path": "https://crystalsea.id"
                 }
             ]
         },
@@ -268,17 +325,17 @@
                         {
                             "id": 1,
                             "title": "Javascript",
-                            "value": 87
+                            "value": 84
                         },
                         {
                             "id": 2,
                             "title": "Go",
-                            "value": 70
+                            "value": 87
                         },
                         {
                             "id": 3,
                             "title": "Python",
-                            "value": 93
+                            "value": 79
                         },
                         {
                             "id": 4,
@@ -302,7 +359,7 @@
                         {
                             "id": 2,
                             "title": "Express JS",
-                            "value": 76
+                            "value": 83
                         },
                         {
                             "id": 3,
@@ -312,7 +369,7 @@
                         {
                             "id": 4,
                             "title": "Django",
-                            "value": 85
+                            "value": 78
                         }
                     ]
                 }
@@ -421,24 +478,27 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "Diploma in Web Development",
-                            "subtitle": "BSE In CSE (2004 - 2008)",
-                            "rating": "4.70/5",
-                            "description": "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Software Engineer",
+                            "subtitle": "PLABS.ID (2020 - now)",
+                            "description": "In PLABS.ID i often create web using several languages and frameworks such as Golang, Nuxt JS, and sometime Express JS. If there was a raw data, i will process the data using Python and plot it in Gnuplot"
                         },
                         {
                             "id": 2,
-                            "title": "The Personal Portfolio Mystery",
-                            "subtitle": "Job at Rainbow-Themes (2008 - 2016)",
-                            "rating": "4.95/5",
-                            "description": "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "DevOps Trainer",
+                            "subtitle": "SanberCode (2022)",
+                            "description": "Become a DevOps Trainer to explain what is DevOps Engineer, how to become a DevOps Engineer, NGINX and Docker fundamental etc."
                         },
                         {
                             "id": 3,
-                            "title": "Diploma in Computer Science",
-                            "subtitle": "Works at Plugin Development (2016 - 2020)",
-                            "rating": "5.00/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "Assistant Lecturer of Network Communication and Datalogger",
+                            "subtitle": "Padjadjaran University (2021)",
+                            "description": "Network Communication and Datalogger is one of the favorite subjects in physics unpad. It learns several things such as data logging, how to display data correctly, processing data, etc."
+                        },
+                        {
+                            "id": 4,
+                            "title": "Computation Laboratory Assistant",
+                            "subtitle": "Padjadjaran University (2019 - 2021)",
+                            "description": "Computational Physics learn how to calculate and display a physical phenomenon using software. Software that has been used to calculate physics phenomenon is C, Matlab and Python"
                         }
                     ]
                 }
