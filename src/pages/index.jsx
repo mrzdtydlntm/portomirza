@@ -63,6 +63,14 @@ const IndexPage = ({ data }) => {
                         getform_url: data.site.siteMetadata?.getform_url,
                     }}
                 />
+                <noscript>
+                    <iframe
+                        src="https://www.googletagmanager.com/ns.html?id=GTM-NHRZBKB"
+                        height="0"
+                        width="0"
+                        style="display:none;visibility:hidden"
+                    ></iframe>
+                </noscript>
             </main>
             <Footer data={{ ...data.footer }} className="section-separator" />
         </Layout>
